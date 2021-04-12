@@ -1,4 +1,5 @@
-Singh-ify
+<h1>Singh-ify</h1>
+<em> A music portolio website that contains my songs </em>
 <h3> Things of Note: </h3>
 <li> User can play and pause tracks </li>
 <li> Play/Pause icons change based off of which track is currently playing </li>
