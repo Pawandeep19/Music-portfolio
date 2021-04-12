@@ -1,6 +1,4 @@
-<img src="mixedByWex.jpg" width="200">
-
-
+Singh-ify
 <h3> Things of Note: </h3>
 <li> User can play and pause tracks </li>
 <li> Play/Pause icons change based off of which track is currently playing </li>
@@ -8,7 +6,9 @@
 
 <h3> Built with: </h3>
 
-<li> Javascript </li>
-<li> Bootstrap (Navbar) </li>
+<li> JavaScript </li>
+<li> HTML </li>
+<li> CSS </li>
+
 
 
