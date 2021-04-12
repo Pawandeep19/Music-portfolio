@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    background-color:rgb(17, 16, 16) ;
+    overflow-x:hidden ;
+    height: 100%;
+    width: 100%;
+}
+
+
+.tracksContainer {
+    width: 600px;
+    margin: auto;
+    border: solid 4px #35f0be;
+    
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#audioContainer {
+    margin-top: 10px;
+    position: sticky;
+    max-width: 414px;
+    margin: auto;
+}
+
+#audio {
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 950px) {
+
+    #topContainer {
+        font-size: 40px
+    }
+
+    #sectionLeft {
+        font-size: 35px
+    }
+    #hypem {
+        width: 125px;
+        height: 50px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
+    #audio {
+        width: 20%;
+        min-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
+    .tracksContainer {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 0px;
+        height: 70px;
+    }
+    #picFrame {
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+        margin-right: auto;
+    }
+
+    #audioContainer {
+        margin-top: 9px;
+    }
+
+    #audio {
+        margin-top: 0px;
+        position: static;
+        transform: translate(0%, 0%);
+        margin: auto;
+        width: 100%;
+    }
+
+    #sectionLeft {
+        display: none;
+    }
+    #sectionRight {
+        display: none;
+    }
+    
+}
+
+.coverArtContainer {
+    height: 100%;
+    width: 20%;
+    border: 1px solid #7C67CB;
+}
+
+.playPauseContainer {
+    height: 100%;
+    width: 20%;
+    border: 1px solid #7C67CB;
+    position: relative;
+}
+
+.fontAwesomePlayTrackIcon {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.coverArt {
+    filter: grayscale(50%);
+    height: 100%;
+    width: 100%;
+    filter:hue-rotate(160deg);
+
+}
+
+.iGotYouCoverArt {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Mali', cursive;
+}
+
+.trackTitleContainer {
+    height: 100%;
+    width: 60%;
+    border: 1px solid #7C67CB;
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+.wrapper {
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 150px;
+    border: solid 5px #7C67CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #05668D;
+    background-color: #0ECD99; 
+    border-radius: 3%;  
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
+    .wrapper {
+        width: 100%;
+    }
+}
+
+.btn {
+    background-color: #7C67CB;
+    color: #0ECD99;
+    /* THIS CENTERS THE SUBMIT BUTTON */
+    margin-left: 25%;
+}
+
+
+
+
+/* ṃain page */
+#pp{
+    position: relative;
+}
+#mainPage{
+    mix-blend-mode: hard-light;
+    height: 100vh;
+    width: 100% ;
+    
+}
+
+
+#imgbox{
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 1; 
+    
+}
+#jn{
+    position: relative;
+    z-index: 2;
+    padding-left: 15%;
+}
+
+
+#down{
+    color: white;
+    font-size: 30px;
+    padding: 0 40%;
+}
+#pawanpic{
+    height: 350px;
+    width: 350px;   
+    margin-top: 6%;
+    border-radius: 50%;
+    border:white 4px solid;
+    background-image: url("pawan1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    0%   {border-color: rgb(41, 243, 84);}
+    25%  {border-color: yellow;}
+    50%  {border-color: rgb(247, 11, 235);}
+    100% {border-color: rgb(23, 238, 227);}
+  }
+  @keyframes example2 {
+    0%   {background: rgb(41, 243, 84);}
+    25%  {background: yellow;}
+    50%  {background: rgb(247, 11, 235);}
+    100% {background: rgb(23, 238, 227);}
+  }
+#paw{
+	
+		color: white;
+	 font-family: Lato;
+	/*margin-top: 10%; or padding-top*/
+     padding-top: 6%;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+     padding: 0 25%;
+     margin-top: 5%;
+                
+                
+}
+
+#uu {
+    width: 400px;
+    border-top: 1px solid #f8f9fa;
+    border-bottom: 1px solid rgba(255,255,255,1.0);
+    margin-bottom: 20px;
+    margin-left:10px;
+
+}
+.ff {
+	font-weight: 700;
+	font-size: 3em;
+}
+i{
+    margin-right: 20px;
+}
+/* jumping icon */
+.bounce {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 0.5s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 0.5s infinite linear;
+    color:000;
+  }
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+
+
+/* pawan section */
+#pawan .row{
+    margin: 50px 50px;
+    
+}
+#pawan h1{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 110px;
+    background-color: white;
+}
+#lr {
+  display: inline;
+}
+#pawan h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+  
