@@ -1,24 +1,30 @@
 let tracksObj = {
-    track1: {
+	track1: {
+        name: "Mitwa",
+        coverArt: "pics/evenNewStrict.png",
+        soundfile: "soundfiles/mitwa.mp3",
+    },
+    track2: {
         name: "Sapna Jahan",
         coverArt: "pics/I Got You Cover Art.png",
         soundfile: "soundfiles/sapna.mp3",
     },
-    track2: {
+    track3: {
         name: "Baarish",
         coverArt: "pics/evenNewStrict.png",
         soundfile: "soundfiles/baarish.mp3",
     },
-    track3: {
+    track4: {
         name: "Jab Tak",
         coverArt: "pics/AuraCoverArt.png",
         soundfile: "soundfiles/jabtak.mp3",
     },
-    track4: {
+    track5: {
         name: "Kuch to hai",
         coverArt: "pics/I Got You Cover Art.png",
         soundfile: "soundfiles/kuchtohai.mp3",
     },
+
     
 }
 
