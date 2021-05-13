@@ -1,7 +1,7 @@
 let tracksObj = {
 	track1: {
         name: "Mitwa",
-        coverArt: "pics/evenNewStrict.png",
+        coverArt: "pics/AuraCoverArt.png",
         soundfile: "soundfiles/mitwa.mp3",
     },
     track2: {
