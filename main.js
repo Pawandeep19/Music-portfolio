@@ -1,25 +1,36 @@
 let tracksObj = {
 	track1: {
         name: "Mitwa",
-        coverArt: "pics/AuraCoverArt.png",
+        coverArt: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NYCS-bull-trans-1.svg/1024px-NYCS-bull-trans-1.svg.png",
         soundfile: "soundfiles/mitwa.mp3",
     },
     track2: {
-        name: "Sapna Jahan",
-        coverArt: "pics/I Got You Cover Art.png",
-        soundfile: "soundfiles/sapna.mp3",
+        name: "Pani Da Rang",
+        coverArt: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/NYCS-bull-trans-2.svg/1200px-NYCS-bull-trans-2.svg.png",
+        soundfile: "soundfiles/Pani da rang.mp3",
     },
     track3: {
+        name: "Sapna Jahan",
+        coverArt: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/NYCS-bull-trans-3.svg/1200px-NYCS-bull-trans-3.svg.png",
+        soundfile: "soundfiles/sapna.mp3",
+    },
+   
+    track4: {
+        name: "Teri Hogaiyaan 2",
+        coverArt: "pics/I Got You Cover Art.png",
+        soundfile: "soundfiles/Teri Hogaiyaan.mp3",
+    },
+    track5: {
         name: "Baarish",
         coverArt: "pics/evenNewStrict.png",
         soundfile: "soundfiles/baarish.mp3",
     },
-    track4: {
+    track6: {
         name: "Jab Tak",
         coverArt: "pics/AuraCoverArt.png",
         soundfile: "soundfiles/jabtak.mp3",
     },
-    track5: {
+    track7: {
         name: "Kuch to hai",
         coverArt: "pics/I Got You Cover Art.png",
         soundfile: "soundfiles/kuchtohai.mp3",
