@@ -209,6 +209,8 @@ body {
     animation-iteration-count: infinite;
     position: absolute;
     z-index: 1; 
+    height: 100vh;
+    width: 100% ;
     
 }
 #jn{
@@ -361,6 +363,8 @@ video{
     background-color: white;
     line-height: 50px;
 }
+
+
 
 
   
