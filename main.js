@@ -156,10 +156,10 @@ setTimeout(function () {
     console.log('I will run after 2 seconds');
     abc.classList.add("invisible");
     abc.classList.remove("animationn");
-}, 6000);
+}, 4000);
 
 
-$(".animationn").click(function() {
+$("#down").click(function() {
     audioo.loop=false;
   audioo.play();
 
