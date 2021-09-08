@@ -365,6 +365,132 @@ video{
 }
 
 
+/*animation*/
+
+.invisible{
+    height: 0vh;
+    transition: height, 0.5s linear;
+}
+
+
+
+.animationn {  
+  height: 100vh;
+  width: 100vw;  
+  }
+
+
+.titlee {
+
+  left: 50%;
+  top: 50%;
+  font-size: 81px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+  animation: wave 4s, jump 2s;
+  position: relative;
+  transform: translate3d(0, 16%, 0);
+  opacity: 0;
+  z-index: 3;
+  animation-fill-mode: forwards;
+}
+
+span:nth-of-type(1) {
+  //left: 0rem;
+  animation: wave 2s, jump 4.1s ease-in-out alternate 0.05s;
+}
+
+span:nth-of-type(2) {
+  //left: 0.8rem;
+  animation: wave 2s, jump 4.1s ease-in-out alternate 0.1s;
+}
+
+span:nth-of-type(3) {
+  //left: 1.6rem;
+  animation:  wave 2s, jump 4.1s ease-in-out alternate 0.15s;
+}
+
+span:nth-of-type(4) {
+  //left: 2.4rem;
+  animation: wave 2s, jump 4.1s ease-in-out alternate 0.2s;
+}
+
+span:nth-of-type(5) {
+  //left: 3.2rem;
+  animation: wave 2s, jump 4.1s ease-in-out alternate 0.25s;
+}
+
+span:nth-of-type(6) {
+  //left: 4rem;
+  animation: wave 1.4s, jump 2.1s ease-in-out alternate 0.3s;
+}
+ span:nth-of-type(7) {
+  //left: 4.8rem;
+  animation: wave 2s, jump 4.1s ease-in-out alternate 0.35s;
+}
+
+span:nth-of-type(8) {
+  //left: 5.6rem;
+  animation: wave 2s, jump 4.1s ease-in-out alternate 0.4s;
+}
+
+span:nth-of-type(9) {
+  //left: 6.4rem;
+  animation: wave 2s, jump 4.1s ease-in-out alternate 0.45s;
+} 
+
+
+@keyframes wave {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+  90% {
+    transform: translate3d(0, -16%, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, -32%, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes lift {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    visibility: hidden;
+  }
+}
+
+@keyframes appear {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+}
+
+
 
 
   

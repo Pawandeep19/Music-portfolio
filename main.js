@@ -1,3 +1,6 @@
+var abc=document.querySelector(".abc");
+var audioo = document.querySelector("audio");
+
 let tracksObj = {
 	track1: {
         name: "Mitwa",
@@ -147,3 +150,17 @@ function changeIconFromAudioController () {
 }
 
 audioPlayer.addEventListener("click", changeIconFromAudioController)
+
+
+setTimeout(function () {
+    console.log('I will run after 2 seconds');
+    abc.classList.add("invisible");
+    abc.classList.remove("animationn");
+}, 6000);
+
+
+$(".animationn").click(function() {
+    audioo.loop=false;
+  audioo.play();
+
+});
