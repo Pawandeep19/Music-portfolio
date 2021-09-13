@@ -67,7 +67,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1500px) {
     /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
     .tracksContainer {
         width: 100%;
@@ -172,13 +172,134 @@ body {
     border-radius: 3%;  
 }
 
+#pawanpic{
+    height: 350px;
+    width: 350px;   
+    margin-top: 6%;
+    border-radius: 50%;
+    border:white 4px solid;
+    background-image: url("pics/pawan1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+    }
+    #paw{
+  
+    color: white;
+   font-family: Lato;
+  /*margin-top: 10%; or padding-top*/
+     padding-top: 6%;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+     padding: 0 25%;
+     margin-top: 2%;                
+    }
+  .ff {
+  font-weight: 700;
+  font-size: 3em;
+   }
+   #uu {
+    width: 400px;
+    border-top: 1px solid #f8f9fa;
+    border-bottom: 1px solid rgba(255,255,255,1.0);
+    margin-bottom: 20px;
+    margin-left:10px;
+   }
+   #down{
+    color: white;
+    font-size: 30px;
+    padding: 0 40%;
+}
+#pawan h1{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 110px;
+    background-color: white;
+    margin-top: 30px;
+}
+#imgbox{
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 1; 
+    height: 100vh;
+    width: 100% ;
+    
+}
+#mainPage{
+    mix-blend-mode: hard-light;
+    height: 100vh;
+    width: 100% ;
+    
+}
+.titlee {
+
+  left: 50%;
+  top: 50%;
+  font-size: 5em;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+  animation: wave 4s, jump 2s;
+  position: relative;
+  transform: translate3d(0, 16%, 0);
+  opacity: 0;
+  z-index: 3;
+  animation-fill-mode: forwards;
+}
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1500px) {
     /* THIS MAKES THE SIGN UP CONTAINER FIT THE FULL SCREEN WIDTH WHEN THE SCREEN SIZE IS LESS THAN 500PX  */
     .wrapper {
         width: 100%;
     }
+    #pawanpic{
+    height: 250px;
+    width: 250px;   
+    }
+    #paw{
+      text-align: center;
+      display: inline;
+      margin-right: 10%;
+
+    }
+    .ff{
+      font-size: 2em;
+    }
+    #uu {
+    width: 80%;
+    text-align: center;
+   }
+   #down{
+    padding: 0 15%;
+   }
+   #pawan h1{
+    padding-top: 7%;
+    padding-bottom: inherit;
+    }
+    #imgbox{
+    max-height: 600px;
+    width: 100% ;
+    
+    }
+    #mainPage{
+    mix-blend-mode: hard-light;
+    max-height: 600px;
+    width: 100% ;
+    
+    }
+    .titlee {
+     text-align: center;
+     left: 10%;
+     font-size: 2.5em;
+  }
+    
 }
 
 .btn {
@@ -195,24 +316,10 @@ body {
 #pp{
     position: relative;
 }
-#mainPage{
-    mix-blend-mode: hard-light;
-    height: 100vh;
-    width: 100% ;
-    
-}
 
 
-#imgbox{
-    animation-name: example2;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    position: absolute;
-    z-index: 1; 
-    height: 100vh;
-    width: 100% ;
-    
-}
+
+
 #jn{
     position: relative;
     z-index: 2;
@@ -220,25 +327,8 @@ body {
 }
 
 
-#down{
-    color: white;
-    font-size: 30px;
-    padding: 0 40%;
-}
-#pawanpic{
-    height: 350px;
-    width: 350px;   
-    margin-top: 6%;
-    border-radius: 50%;
-    border:white 4px solid;
-    background-image: url("pics/pawan1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    
-}
+
+
 @keyframes example {
     0%   {border-color: rgb(41, 243, 84);}
     25%  {border-color: yellow;}
@@ -251,33 +341,10 @@ body {
     50%  {background: rgb(247, 11, 235);}
     100% {background: rgb(23, 238, 227);}
   }
-#paw{
-	
-		color: white;
-	 font-family: Lato;
-	/*margin-top: 10%; or padding-top*/
-     padding-top: 6%;
-      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.1),
-                 0px 18px 23px rgba(0,0,0,0.1);
-     padding: 0 25%;
-     margin-top: 2%;
-                
-                
-}
 
-#uu {
-    width: 400px;
-    border-top: 1px solid #f8f9fa;
-    border-bottom: 1px solid rgba(255,255,255,1.0);
-    margin-bottom: 20px;
-    margin-left:10px;
 
-}
-.ff {
-	font-weight: 700;
-	font-size: 3em;
-}
+
+
 i{
     margin-right: 20px;
 }
@@ -328,13 +395,7 @@ i{
     margin: 50px 50px;
     
 }
-#pawan h1{
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 110px;
-    background-color: white;
-    margin-top: 30px;
-}
+
 #lr {
   display: inline;
 }
@@ -385,22 +446,7 @@ video{
   }
 
 
-.titlee {
 
-  left: 50%;
-  top: 50%;
-  font-size: 81px;
-  color: white;
-  justify-content: center;
-  text-align: center;
-  font-family: "Lexend Deca", sans-serif;
-  animation: wave 4s, jump 2s;
-  position: relative;
-  transform: translate3d(0, 16%, 0);
-  opacity: 0;
-  z-index: 3;
-  animation-fill-mode: forwards;
-}
 
 span:nth-of-type(1) {
   //left: 0rem;
