@@ -1,130 +1,242 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
     <!-- for mobile view -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>SINGHIFY</title>
+    <!-- bootstrap.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jpopper for carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- bootstrap javascript for carousel -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- icon pack -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <!-- font pack -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- our css -->
+    <link rel="stylesheet" type="text/css" href="singhify.css">
+    <!-- aos css used for scroll effects (aos-animate on scroll)-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <!-- my css -->
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="icon" type="image/png" href="pics/bg2.jpg">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
     <meta name="image" property="og:image" content="pics/linkdin.png">
-    <title>Singh-Ify</title>
+    <link rel="icon" type="image/png" href="pics/fav.jpeg">
+
+           
 </head>
-
 <body>
-
-
-   <div class="abc animationn">
-  <span class="titlee">S</span>
-  <span class="titlee">I</span>
-  <span class="titlee">N</span>
-  <span class="titlee">G</span>
-  <span class="titlee">H</span>
-  <span class="titlee">-</span>
-  <span class="titlee">I</span>
-  <span class="titlee">F</span>
-  <span class="titlee">Y</span>
 <audio id="player" autoplay loop>
     <source src="soundfiles/aadat.mp3" type="audio/mp3">
 </audio>
+<!-- Home Section -->
+<div class="row">
+    <div class="col-lg-12">
+                <div id="imgbox">
+                        <img id="mainPage"  src="pics/bg.jpg">
+                </div>
 
-
-</div>
-
-
-
-  <div>
-
-          <h1 id="singhify">Singhify</h1>
-    </div> 
-<div  id="pp">
-        <div class="row">
-            <div class="col-lg-12">
-                    <div id="imgbox">
-                        <img id="mainPage"  src="pics/gui3.jpg">
+                <!--jumbotron-->
+                <div id="home">
+                    <div class="jumbotron jumbotron-fluid container-fluid">                      
+                        <img id="pawanpic" >
+                        <h1>PAWANDEEP SINGH</h1>
+                        <p>Software Engineer, singer, and a speaker 
+                        <br>  
+                            <a href="https://instagram.com/pawandeep2.0"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/pawandeep-s-0b0a58106/"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <br>
+                        <!-- <a href="#about"><i class="fas fa-arrow-down fa-lg"></i></a></p> -->
+                        <a id="down" href="#about"><i class="fas fa-chevron-down bounce "></i></a>
                     </div>
-
-                    <div id="jn">   
-                        <img id="pawanpic" >                                    
-                        <h1 class="ff">Pawandeep Singh</h1>
-                        <a href="https://instagram.com/pawandeep2.0"><i class="fab fa-instagram fa-2x"></i></a>
-                        <a href="https://www.linkedin.com/in/pawandeep-s-0b0a58106/"><i class="fab fa-linkedin fa-2x"></i></a>
-                    
-
-                        <div id="paw">
-                            <h3> <em>Where words leave off, music begins.</em></h3>
-                            <hr id="uu">                        
-                        </div>
-                        <a id="down" href="#pawan"><i class="fas fa-chevron-down bounce "></i></a>
-
-                    </div>
-
-            </div>
-    
-            
-        </div>
-</div>
-       
-
-    
-
-
-    
-<section id="pawan">
-    <div>
-          <h1>MUSIC</h1>
+                </div>
     </div>
-        <div class="row">
-            <div class="col-lg-7 order-2 order-md-1">
-                <!-- <iframe width="100%" height="500px"
-                src="https://www.youtube.com/embed/xzYqo88QhQc?autoplay=1&mute=1">
-                </iframe> -->
-            <h2>Video Songs</h2>
-            <video width="100%" height="500px" poster="pics/pawan4.png" controls>
-               <source src="pics/video.mp4" type="video/mp4">
-            </video>
-            <video width="100%" height="400px" controls>
-               <source src="pics/video2.mp4" type="video/mp4">
-            </video>
-            </div>
-
-            
-                <div class="col-lg-5 order-1 order-md-2">
-                <div id="lr">
-                    <h2>Latest releases</h2>
-                    <div id="alltracksBossContainer">  
-                    </div>
-                    <div id=audioContainer>
-                        <audio id="audio" controls>
-                            <source id="audioSource">
-                        </audio>
-                    </div>
-                </div>   
-            </div>
-           
+</div>
+<!-- Home section ends -->
+<!-- navbar -->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="#" class="navbar-brand">SINGHIFY <i class="fas fa-headphones"></i></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">MUSIC</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#podcast" class="nav-link">PODCAST</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
         </div>
-    
-</section>
+    </nav>
+<!-- navbar ends -->
+
+<!-- about section -->
+<div id="about" class="headings">
+    <div class="space"></div>
+    <h1>ABOUT</h1>
+        <!-- owner section -->
+        <div id="ownerbg">
+                <div class="d-flex justify-content-around" data-aos="zoom-in-up">
+            <!-- card-1 -->
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                          <h4 class="card-title">PAWANDEEP SINGH</h4>
+                          <img class="card-img-bottom" src="pics/fav.jpeg" alt="Card image">
+                          <button id="but1" class="btn btn-primary">LIKE ME?</button>
+                          <p id="email1"></p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                     <h2 class="subhead">INTRODUCTION</h2>
+                        <p class="lead">Hi, my name is Pawandeep Singh. I am currently working as a software engineer at IT. I love music and I am currenty working on producing my own songs real soon. I am also a motivational speaker and helps students across the world with my voice. If you like me please press the Like button. If you don't I'll try hard to make you like me :)</p>     
+                </div>
+            </div>
+
+        </div>
+</div>
+<!-- about section ends -->
+
+<!-- music section -->
+<div id="products" class="headings">
+    <div class="space"></div>
+    <h1>MUSIC</h1>
+
+    <!-- 1st -->
+   
+        <section id="pawan">
+           
+                <div class="row">
+                    <div class="col-lg-7 order-2 order-md-1">
+                    <h2>VIDEO SONGS</h2>
+                    <video width="100%" height="500px" poster="pics/pawan4.png" controls>
+                       <source src="pics/video.mp4" type="video/mp4">
+                    </video>
+                    <video width="100%" height="400px" controls>
+                       <source src="pics/video2.mp4" type="video/mp4">
+                    </video>
+                    </div>
+
+        
+                    <div class="col-lg-5 order-1 order-md-2">
+                        <h2>LATEST RELEASES</h2>
+                        <div id="lr">
+                            <div class="container">
+                                <div class="column add-bottom">
+                                    <div id="mainwrap">
+                                        <div id="nowPlay">
+                                            <span id="npAction">Paused...</span><span id="npTitle"></span>
+                                        </div>
+                                        <div id="audiowrap">
+                                            <div id="audio0">
+                                                <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+                                            </div>
+                                            <div id="tracks">
+                                                <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
+                                            </div>
+                                        </div>
+                                        <div id="plwrap">
+                                            <ul id="plList"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column add-bottom center">
+                                    <p>Music by <a href="#">Pawan</a></p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>           
+                </div>            
+        </section>
 
 
+</div>
+<!-- music section ended -->
+
+<!-- Podcast Section -->
+<div id="podcast" class="headings">
+    <div class="space"></div>
+    <h1>PODCAST</h1>
+        <div id="lrp">
+            <div id="alltracksBossContainer">  
+            </div>
+            <div id=audioContainer>
+                <audio id="audio" controls>
+                    <source id="audioSource">
+                </audio>
+            </div>
+        </div>            
+</div>
+
+
+<!--  -->
+
+<!-- contact section-->
+    <div id="contact" class="headings">
+    <div class="space"></div>
+
+        <h1>CONTACT</h1>
+        <div class="jumbotron">
+            <h3>I'D <i class="far fa-heart"></i> TO TALK!</h3>
+            <div class="row">
+                <div class="col-8">
+                   <h4><i class="fas fa-map-marker-alt"></i> New Delhi, India</h4>
+                   <h4><i class="fas fa-phone"></i> 8285****48</h4>
+                   <h4><i class="far fa-envelope"></i> sirpawandeep25@gmail.com</h4></div>
+                <div class="col-4" id="icon">
+                   <a target="_blank" href="https://instagram.com/pawandeep2.0"><i class="fab fa-instagram fa-3x"></i> </a>          <a target="_blank" href="https://github.com/Pawandeep19"><i class="fab fa-github fa-3x"></i></a>
+                </div>
+        </div>
+    </div>
+<!-- contact section ends -->
+
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+
+    
+
+
+
+
+
+
+<!-- our javascript -->
+<script type="text/javascript" src="singhify.js"></script>
+
+<!-- aos js for scrolling effect -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset:150,
+        duration:1000
+    });
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="main.js"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
 
+
+
+</body>
 </html>
